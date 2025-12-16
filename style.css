@@ -2,16 +2,17 @@ body{
     background:linear-gradient(#101020,#201020);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     display: block;
 }
 header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width:100%;
-    margin-bottom: 25px;
+    height: 6vh;
     border-bottom: 2px solid #d7ddff;
     z-index: 100;
 }
@@ -26,12 +27,31 @@ header h1{
     display: flex;
     
 }
+#result,#moto{
+    width: 49%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid #d7ddff;
+}
+#moto h2 ,#result h2{
+    color:#d7ddff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    justify-content: center;
+}
+
 #box {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 90vh;
+    margin-top: 2vh;
     width: 100%;
-    min-height: 100vh;
-    margin-top: 80px;
     box-sizing: border-box;
     border-radius: 25px;
     border: 2px solid #d7ddff;
-    position: fixed;
+    position: relative;
+    padding: 20px;
 }
