@@ -1,0 +1,37 @@
+body{
+    background:linear-gradient(#101020,#201020);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    display: block;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #d7ddff;
+    z-index: 100;
+}
+header h1{
+    color:#d7ddff;
+    padding: 10px;
+    margin: 0;
+    background: rgba(0,0,0,0);
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#box {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 80px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid #d7ddff;
+    position: fixed;
+}
